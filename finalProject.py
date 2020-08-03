@@ -18,10 +18,7 @@ while player_name != "Bill":
   if player_name != "Bill":
     print(player_name + "? It is a good name.")
     print("You have another guy named Bill riding with you today!")
-# Drawing bill    
-
-    input("Enter to close hideous picture.")
-    print("Too bad. It's going to stay open")
+    
     break
     
   else:
