@@ -7,41 +7,9 @@ flour = 0
 salt = 0
 clothes = 0
 import time
-import pygame
-
-#pygame initialize
-pygame.init()
 
 #welcome player
 print('Welcome to the game Oregon Trail ')
-
-front_wheel_color = (70, 70, 70)
-back_wheel_color = (50, 50, 50)
-car_color = (255, 255, 100)
-
-input("Do you want to see a wagon that you are riding in?")
-print("Tooo bad. You are!")
-#windows
-window = pygame.display.set_mode([400, 400])
-window.fill((200, 200, 255))
-
-# Draw the back wheels
-pygame.draw.circle(window, back_wheel_color, (272,250), 25)
-pygame.draw.circle(window, back_wheel_color, (147,250), 25)
-
-# Draw the car
-pygame.draw.circle(window,(255,255,255), (150,200), 50)
-r = pygame.Rect(100,200,200,50)
-pygame.draw.rect(window, car_color, r)
-
-
-# Draw the front wheels
-pygame.draw.circle(window, front_wheel_color, (253,250), 25)
-pygame.draw.circle(window, front_wheel_color, (128,250), 25)
-
-pygame.display.flip()
-
-input("This is the wagon you are living in!(Enter to continue!)")
 
 player1 = "Bill"
 #asking name
@@ -51,61 +19,6 @@ while player_name != "Bill":
     print(player_name + "? It is a good name.")
     print("You have another guy named Bill riding with you today!")
 # Drawing bill    
-    black = (0, 0, 0)
-    white = (255, 255, 255)
-
-    window = pygame.display.set_mode([400, 400])
-    window.fill((50, 50, 50))
-
-    # Outline each shape
-    pygame.draw.circle(window, white, (200, 150), 200)
-
-
-    pygame.draw.circle(window, white, (200, 200), 180)
-
-
-    pygame.draw.circle(window, white, (130, 130), 40)
-    
-    
-    pygame.draw.circle(window, white, (130, 130), 10)
-    
-    
-    pygame.draw.circle(window, white, (270, 130), 40)
-    
-    
-    pygame.draw.circle(window, white, (270, 130), 10)
-    
-    
-    pygame.draw.polygon(window, white, [(200, 130), (200, 260), (250, 230)])
-    
-    
-    rect = pygame.Rect(120, 290, 80, 40)
-    pygame.draw.ellipse(window, white, rect)
-    pygame.draw.circle(window, black, (200, 150), 200,3)
-    
-    
-    pygame.draw.circle(window, black, (200, 200), 180,3)
-    
-    
-    pygame.draw.circle(window, black, (130, 130), 40,3)
-    
-    
-    pygame.draw.circle(window, black, (130, 130), 10,3)
-    
-    
-    pygame.draw.circle(window, black, (270, 130), 40,3)
-    
-    
-    pygame.draw.circle(window, black, (270, 130), 10,3)
-    
-    
-    pygame.draw.polygon(window, black, [(200, 130), (200, 260), (250, 230)],3)
-    
-    
-    rect = pygame.Rect(120, 290, 80, 40)
-    pygame.draw.ellipse(window, black, rect,3)
-    
-    pygame.display.flip()
 
     input("Enter to close hideous picture.")
     print("Too bad. It's going to stay open")
@@ -459,70 +372,70 @@ print("Hunt " + str(hunt_total_num) +" times.")
 print("Status " + str(status_total_num) +" times.")
 
 
-<============================================|==============================================>
-count = 0
-a = 0
-b = 0
-c = 0
-d = 0
-e = "ERROR 404 PAGE NOT FOUND... PLEASE CHECK YOUR INPUT AGAIN"
-f = 0
-g = 0
-h = 0
-i = 0
-j = 0
-k = 0
-l = 0
-m = 0
-n = 0
-o = 0
-p = 0
-q = 0
-r = 0
-s = 0
-t = 0
-u = 0
-v = 0
-w = 0
-x = 0
-y = 0 
-z = 0
+# <============================================|==============================================>
+# count = 0
+# a = 0
+# b = 0
+# c = 0
+# d = 0
+# e = "ERROR 404 PAGE NOT FOUND... PLEASE CHECK YOUR INPUT AGAIN"
+# f = 0
+# g = 0
+# h = 0
+# i = 0
+# j = 0
+# k = 0
+# l = 0
+# m = 0
+# n = 0
+# o = 0
+# p = 0
+# q = 0
+# r = 0
+# s = 0
+# t = 0
+# u = 0
+# v = 0
+# w = 0
+# x = 0
+# y = 0 
+# z = 0
 
-print()
-print()
-print("WELCOME TO JALIGAS CHEMISTRY GAME!")
-print()
-print("WE HAVE LOTS OF FUN IN STORE FOR YOU TODAY!")
-print()
-while True:
-    a = input("How many Players are playing today...(Please give a number answer of '1' or '2')  ")
-    if a == "1":
-        print()
-        print("You have said that there is only " + str(a) + " player...")
-        b = input("Is this correct?(please answer 'y' or 'n') ")
-        print()
-        if b == "y":
-            break
-        elif b == "n":
-            print("Okay Lets try this again...")
-        else:
-            print(e)
-    elif a == "2":
-        print()
-        print("You have said that there are only " + str(a) + " players...")
-        b = input("Is this correct?(please answer 'y' or 'n') ")
-        print()
-        if b == "y":
-            break
-        elif b == "n":
-            print("Okay Lets try this again...")
-        else:
-            print(e)        
-    else:
-        print(e)
+# print()
+# print()
+# print("WELCOME TO JALIGAS CHEMISTRY GAME!")
+# print()
+# print("WE HAVE LOTS OF FUN IN STORE FOR YOU TODAY!")
+# print()
+# while True:
+#     a = input("How many Players are playing today...(Please give a number answer of '1' or '2')  ")
+#     if a == "1":
+#         print()
+#         print("You have said that there is only " + str(a) + " player...")
+#         b = input("Is this correct?(please answer 'y' or 'n') ")
+#         print()
+#         if b == "y":
+#             break
+#         elif b == "n":
+#             print("Okay Lets try this again...")
+#         else:
+#             print(e)
+#     elif a == "2":
+#         print()
+#         print("You have said that there are only " + str(a) + " players...")
+#         b = input("Is this correct?(please answer 'y' or 'n') ")
+#         print()
+#         if b == "y":
+#             break
+#         elif b == "n":
+#             print("Okay Lets try this again...")
+#         else:
+#             print(e)        
+#     else:
+#         print(e)
 
 
-if a == "1":
-    print("Welcome Player 1!")
-    print()
-    print()
+# if a == "1":
+#     print("Welcome Player 1!")
+#     print()
+#     print()
